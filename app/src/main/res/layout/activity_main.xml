@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DFDFDF"
+        app:layoutDescription="@xml/activity_main_xml_constraintlayout_scene2"
+        tools:context=".MainActivity">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+
+            android:background="#FEFDFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:titleTextColor="@color/purple_700" />
+
+        <EditText
+            android:id="@+id/originalPost"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="24dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/type_your_post_here"
+            android:inputType="textMultiLine"
+            android:padding="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <TextView
+            android:id="@+id/convertedPost"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+
+            android:gravity="start|top"
+            android:hint="@string/converted_post_will_appear_here"
+            android:padding="2dp"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+        <Button
+            android:id="@+id/convertButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@android:drawable/arrow_down_float"
+            android:text="@string/convert"
+            app:icon="@android:drawable/arrow_down_float"
+            app:iconGravity="textStart"
+            app:iconPadding="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+        <TextView
+            android:id="@+id/buttonShare"
+            style="@style/Widget.MaterialComponents.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+
+            android:drawableStart="?attr/actionModeShareDrawable"
+            android:drawablePadding="5dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:padding="2dp"
+            android:text="@string/share"
+            android:textColor="@color/purple_700"
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:drawableTint="@color/purple_700"
+            app:icon="@android:drawable/ic_menu_share"
+            app:layout_constraintBottom_toBottomOf="@+id/convertedPost"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/buttonCopy"
+            style="@style/Widget.MaterialComponents.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:drawableStart="?attr/actionModeCopyDrawable"
+            android:drawablePadding="5dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:padding="2dp"
+            android:text="@string/copy"
+
+            android:textColor="@color/purple_700"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:drawableTint="@color/purple_700"
+            app:icon="?attr/actionModeCopyDrawable"
+            app:layout_constraintBottom_toBottomOf="@+id/convertedPost"
+            tools:layout_editor_absoluteX="169dp"
+            android:focusable="true" />
+
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+</layout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">فلسطين</string>
+    <string name="about" >عن التطبيق</string>
+    <string name="type_your_post_here" >اكتب المنشور هنا ثم اضغط تحويل</string>
+    <string name="converted_post_will_appear_here">المنشور بعد التحويل يظهر هنا</string>
+    <string name="convert">تحويــل</string>
+    <string name="share">مشاركة</string>
+    <string name="copy">"نسخ "</string>
+    <string name="ok">حسنا</string>
+    <string name="copied">تم النسخ للحافظة</string>
+    <string name="no_text">لا يوجـــد نص للتحويل</string>
+    <string name="abouttext">  Azolidine@Gamil.com \n\n في ظل سياسة التعتيم على معاناة الشعب الفسطيني بحذف المنشورات أو إيقاف الحسابات على منصات التواصل الإجتماعي المختلفة , يعتبر هذا التطبيق محاولة بسيطة للتغلب على بعض خوارزميات التعرف على وتصنيف المنشورات التي تنشر عن فلسطين والاعتداء الصهيوني المحتل الغاشم على أرض وشعب فلسطين وذلك من خلال استبدال الحروف العربية المنقوطة بأخرى غير منقوطة مع امكانية قراءة النص لمن يقرأ اللغة العربية. اللهم كن لإخواننا فى فلسطين وسائر بقاع الأرض وانتقم من اليهود ومن عاونهم</string>
+</resources>

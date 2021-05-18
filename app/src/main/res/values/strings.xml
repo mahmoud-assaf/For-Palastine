@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="true">Palastine</string>
+    <string name="about">About</string>
+    <string name="type_your_post_here">Type your post here ...</string>
+    <string name="converted_post_will_appear_here">Converted post will appear here..</string>
+    <string name="convert">Convert</string>
+    <string name="share">Share</string>
+    <string name="copy">Copy</string>
+    <string name="ok">Ok</string>
+    <string name="copied">Copied to Clipboard</string>
+    <string name="no_text">No text to convert</string>
+    <string name="abouttext"> في ظل سياسة التعتيم على معاناة الشعب الفسطيني بحذف المنشورات أو إيقاف الحسابات على منصات التواصل الإجتماعي المختلفة , يعتبر هذا التطبيق محاولة بسيطة للتغلب على بعض خوارزميات التعرف على وتصنيف المنشورات التي تنشر عن فلسطين والاعتداء الصهيوني المحتل الغاشم على أرض وشعب فلسطين وذلك من خلال استبدال الحروف العربية المنقوطة بأخرى غير منقوطة مع امكانية قراءة النص لمن يقرأ اللغة العربية. اللهم كن لإخواننا فى فلسطين وسائر بقاع الأرض وانتقم من اليهود ومن عاونهم. \n \n \n Azolidine@Gmail.com </string>
+</resources>
